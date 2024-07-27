@@ -413,10 +413,12 @@ public class ColemanLiauIndex {
   - Перебираем каждый символ текста. Если символ является буквой (проверяем с помощью Character.isLetter), увеличиваем счетчик count.
   - Возвращаем общее количество букв.
 
+    ```
     private static int countWords(String text) {
         String[] words = text.trim().split("\\s+");
         return words.length == 1 && words[0].isEmpty() ? 0 : words.length; // Обработка пустого ввода
     }
+    ```
 
 - **Метод countWords:**
   - Убираем лишние пробелы в начале и конце текста с помощью trim(),
