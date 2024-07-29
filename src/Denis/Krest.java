@@ -2,7 +2,7 @@ package Denis;
 
 public class Krest {
     public static void main(String[] args) {
-        int height = 4;
+        int height = 5;
         int width = height * 2 - 1;
 
         for (int i = 0; i < height; i++) {
