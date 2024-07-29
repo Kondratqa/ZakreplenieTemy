@@ -1,10 +1,15 @@
 package Denis;
 
+import java.util.Scanner;
+
 public class Elka {
     public static void main(String[] args) {
-        int height = 20; // Высота треугольника
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ведите высоту ёлочки ");
 
-        for (int i = 1; i <= height; i++) {
+        int height = scanner.nextInt(); // Высота треугольника
+
+        for (int i = 0; i <= height; i++) {
             // Печатаем пробелы
             for (int j = height; j > i; j--) {
                 System.out.print(" ");
