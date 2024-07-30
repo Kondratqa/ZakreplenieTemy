@@ -7,13 +7,7 @@ public class Dog {
     private String poroda;
     private int glaza;
 
-    public int getGlaza() {
-        return glaza;
-    }
 
-    public void setGlaza(int glaza) {
-        this.glaza = glaza;
-    }
 
     public Dog(String name) {
         this.name = name;
@@ -48,7 +42,14 @@ public class Dog {
     }
 
     public void setName(String dogsName) {
+        this.name = name;
+    }
 
+    public int getGlaza() {
+        return glaza;
+    }
 
+    public void setGlaza(int glaza) {
+        this.glaza = glaza;
     }
 }
