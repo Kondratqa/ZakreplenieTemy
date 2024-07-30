@@ -1,7 +1,7 @@
 package SholeVariables;
 import  java.util.Scanner;
 
-public class celciyFaringate {
+public class CelciyFaringate {
     public static void main(String[] args) {
         Scanner user_input = new Scanner(System.in);
         /*

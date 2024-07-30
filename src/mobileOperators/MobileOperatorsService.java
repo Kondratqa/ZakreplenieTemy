@@ -1,6 +1,6 @@
 package mobileOperators;
 
-public class mobileOperatorsService {
+public class MobileOperatorsService {
     public static void main(String[] args) {
         double currentBalance = 100; // Начальная сумма на счету клиента
         double topUpAmount = 1100; // Сумма пополнения счета

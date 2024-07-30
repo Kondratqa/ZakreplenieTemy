@@ -2,7 +2,7 @@ package SholeVariables;
 
 import java.util.Scanner;
 
-public class sravniNumber {
+public class SravniNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); //// создаём объект класса Scanner
         int i = 0;
